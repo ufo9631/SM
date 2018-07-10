@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "de591caa8b77223f0218277d8edbdc52ddd7efce"
+    "signature": "f3fcb9bafc5d83c60b1bbdcec04689b5af8a00b2"
   },
   "compilationOptions": {
     "defines": [
@@ -24,7 +24,9 @@
     ".NETCoreApp,Version=v2.0": {
       "SM.Web/1.0.0": {
         "dependencies": {
+          "AspectCore.Extensions.Autofac": "0.7.0",
           "Autofac": "4.8.1",
+          "Autofac.Configuration": "4.1.0",
           "Microsoft.AspNetCore.All": "2.0.8",
           "Microsoft.NETCore.App": "2.0.0",
           "Newtonsoft.Json": "11.0.2",
@@ -43,10 +45,73 @@
           "SM.Web.dll": {}
         }
       },
+      "AspectCore.Abstractions/0.7.0": {
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AspectCore.Abstractions.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AspectCore.Abstractions.dll": {}
+        }
+      },
+      "AspectCore.Core/0.7.0": {
+        "dependencies": {
+          "AspectCore.Abstractions": "0.7.0",
+          "AspectCore.Extensions.Reflection": "0.7.0",
+          "Microsoft.CSharp": "4.5.0-rc1",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AspectCore.Core.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AspectCore.Core.dll": {}
+        }
+      },
+      "AspectCore.Extensions.Autofac/0.7.0": {
+        "dependencies": {
+          "AspectCore.Core": "0.7.0",
+          "Autofac": "4.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AspectCore.Extensions.Autofac.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AspectCore.Extensions.Autofac.dll": {}
+        }
+      },
+      "AspectCore.Extensions.Reflection/0.7.0": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AspectCore.Extensions.Reflection.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AspectCore.Extensions.Reflection.dll": {}
+        }
+      },
       "Autofac/4.8.1": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
-          "System.ComponentModel": "4.0.1"
+          "System.ComponentModel": "4.3.0"
         },
         "runtime": {
           "lib/netstandard1.1/Autofac.dll": {
@@ -56,6 +121,21 @@
         },
         "compile": {
           "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "Autofac.Configuration/4.1.0": {
+        "dependencies": {
+          "Autofac": "4.8.1",
+          "Microsoft.Extensions.Configuration": "2.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -992,7 +1072,7 @@
       },
       "Microsoft.AspNetCore.JsonPatch/2.0.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.CSharp": "4.5.0-rc1",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
@@ -1796,7 +1876,7 @@
           "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {}
         }
       },
-      "Microsoft.CSharp/4.4.0": {},
+      "Microsoft.CSharp/4.5.0-rc1": {},
       "Microsoft.Data.Edm/5.8.2": {
         "runtime": {
           "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
@@ -1973,7 +2053,7 @@
       },
       "Microsoft.EntityFrameworkCore.Relational/2.0.3": {
         "dependencies": {
-          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.CSharp": "4.5.0-rc1",
           "Microsoft.EntityFrameworkCore": "2.0.3",
           "Microsoft.Extensions.Configuration.Abstractions": "2.0.2"
         },
@@ -3234,7 +3314,7 @@
           "System.Threading": "4.3.0"
         }
       },
-      "System.ComponentModel/4.0.1": {
+      "System.ComponentModel/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
         }
@@ -4735,12 +4815,47 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AspectCore.Abstractions/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AgV1OFl0V1i+HBK+dsztIfFMhIDozwDjamqflJW4kpQH20WYCi7b7U35+BcDAd/DePQexGPLesHd0pojNNGCNA==",
+      "path": "aspectcore.abstractions/0.7.0",
+      "hashPath": "aspectcore.abstractions.0.7.0.nupkg.sha512"
+    },
+    "AspectCore.Core/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4CtgUQkCkLZAGhzLM1Quc1SoH75qo2l0rdCphiax3oRpus7K7FUu+jvKPKeaRi1u+qLAi28sbCSak9WDATz2Bg==",
+      "path": "aspectcore.core/0.7.0",
+      "hashPath": "aspectcore.core.0.7.0.nupkg.sha512"
+    },
+    "AspectCore.Extensions.Autofac/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q3Phk9xG4Q7wpuMam9zEc4fqVs7thcLHh6cnKUF8qVFfdtWmu4Us6yd/XTCM/vdsdnN++FPsTmDvYKkUpvoZCg==",
+      "path": "aspectcore.extensions.autofac/0.7.0",
+      "hashPath": "aspectcore.extensions.autofac.0.7.0.nupkg.sha512"
+    },
+    "AspectCore.Extensions.Reflection/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cAueSyGBzMnQTGveYEP8tbJa8/1uu9DhMXIdyOD7sx2sqi2t9FC1P47oXs4RAW4HlUFQRKn/9CVX+c8PMBdYpg==",
+      "path": "aspectcore.extensions.reflection/0.7.0",
+      "hashPath": "aspectcore.extensions.reflection.0.7.0.nupkg.sha512"
+    },
     "Autofac/4.8.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
       "path": "autofac/4.8.1",
       "hashPath": "autofac.4.8.1.nupkg.sha512"
+    },
+    "Autofac.Configuration/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0RBau4Z2V7BYkU3m62cMCOzKjPFakSDQ91aAvLxo/IeafS+2SdRh50B0dVpLYyOfk6JgX63eWvJJXOQ/VT/7Kw==",
+      "path": "autofac.configuration/4.1.0",
+      "hashPath": "autofac.configuration.4.1.0.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
@@ -5400,12 +5515,12 @@
       "path": "microsoft.codeanalysis.razor/2.0.3",
       "hashPath": "microsoft.codeanalysis.razor.2.0.3.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.4.0": {
+    "Microsoft.CSharp/4.5.0-rc1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
-      "path": "microsoft.csharp/4.4.0",
-      "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
+      "sha512": "sha512-ZHQLb01QJvLRyqjt5ega6QIpz1BvCoTSa/dL9Ne/JfJzgyj5+zDMQHUTb9BfJege3yavV2FFdKIH2PQRqGCoHQ==",
+      "path": "microsoft.csharp/4.5.0-rc1",
+      "hashPath": "microsoft.csharp.4.5.0-rc1.nupkg.sha512"
     },
     "Microsoft.Data.Edm/5.8.2": {
       "type": "package",
@@ -6149,12 +6264,12 @@
       "path": "system.collections.specialized/4.3.0",
       "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
     },
-    "System.ComponentModel/4.0.1": {
+    "System.ComponentModel/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
-      "path": "system.componentmodel/4.0.1",
-      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
+      "sha512": "sha512-VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "path": "system.componentmodel/4.3.0",
+      "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/4.4.0": {
       "type": "package",

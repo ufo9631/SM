@@ -5,6 +5,8 @@
   <ItemGroup>
     <PackageReference Include="AspectCore.Extensions.Autofac" Version="0.7.0" />
     <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Configuration" Version="4.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
@@ -19,8 +21,5 @@
     <ProjectReference Include="..\SM.IBLL\SM.IBLL.csproj" />
     <ProjectReference Include="..\SM.IDAL\SM.IDAL.csproj" />
     <ProjectReference Include="..\SM.Model\SM.Model.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
