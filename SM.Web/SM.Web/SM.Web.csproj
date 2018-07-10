@@ -3,7 +3,11 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="AspectCore.Extensions.Autofac" Version="0.7.0" />
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
@@ -15,5 +19,8 @@
     <ProjectReference Include="..\SM.IBLL\SM.IBLL.csproj" />
     <ProjectReference Include="..\SM.IDAL\SM.IDAL.csproj" />
     <ProjectReference Include="..\SM.Model\SM.Model.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>

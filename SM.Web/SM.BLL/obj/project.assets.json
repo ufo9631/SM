@@ -758,23 +758,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HomePC\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\SM\\SM\\SM.Web\\SM.BLL\\SM.BLL.csproj",
+      "projectUniqueName": "G:\\SM\\SM.Web\\SM.BLL\\SM.BLL.csproj",
       "projectName": "SM.BLL",
-      "projectPath": "H:\\SM\\SM\\SM.Web\\SM.BLL\\SM.BLL.csproj",
-      "packagesPath": "C:\\Users\\HomePC\\.nuget\\packages\\",
-      "outputPath": "H:\\SM\\SM\\SM.Web\\SM.BLL\\obj\\",
+      "projectPath": "G:\\SM\\SM.Web\\SM.BLL\\SM.BLL.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "G:\\SM\\SM.Web\\SM.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\HomePC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -787,20 +787,20 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "H:\\SM\\SM\\SM.Web\\SM.Common\\SM.Common.csproj": {
-              "projectPath": "H:\\SM\\SM\\SM.Web\\SM.Common\\SM.Common.csproj"
+            "G:\\SM\\SM.Web\\SM.Common\\SM.Common.csproj": {
+              "projectPath": "G:\\SM\\SM.Web\\SM.Common\\SM.Common.csproj"
             },
-            "H:\\SM\\SM\\SM.Web\\SM.DAL\\SM.DAL.csproj": {
-              "projectPath": "H:\\SM\\SM\\SM.Web\\SM.DAL\\SM.DAL.csproj"
+            "G:\\SM\\SM.Web\\SM.DAL\\SM.DAL.csproj": {
+              "projectPath": "G:\\SM\\SM.Web\\SM.DAL\\SM.DAL.csproj"
             },
-            "H:\\SM\\SM\\SM.Web\\SM.IBLL\\SM.IBLL.csproj": {
-              "projectPath": "H:\\SM\\SM\\SM.Web\\SM.IBLL\\SM.IBLL.csproj"
+            "G:\\SM\\SM.Web\\SM.IBLL\\SM.IBLL.csproj": {
+              "projectPath": "G:\\SM\\SM.Web\\SM.IBLL\\SM.IBLL.csproj"
             },
-            "H:\\SM\\SM\\SM.Web\\SM.IDAL\\SM.IDAL.csproj": {
-              "projectPath": "H:\\SM\\SM\\SM.Web\\SM.IDAL\\SM.IDAL.csproj"
+            "G:\\SM\\SM.Web\\SM.IDAL\\SM.IDAL.csproj": {
+              "projectPath": "G:\\SM\\SM.Web\\SM.IDAL\\SM.IDAL.csproj"
             },
-            "H:\\SM\\SM\\SM.Web\\SM.Model\\SM.Model.csproj": {
-              "projectPath": "H:\\SM\\SM\\SM.Web\\SM.Model\\SM.Model.csproj"
+            "G:\\SM\\SM.Web\\SM.Model\\SM.Model.csproj": {
+              "projectPath": "G:\\SM\\SM.Web\\SM.Model\\SM.Model.csproj"
             }
           }
         }
