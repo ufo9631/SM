@@ -1,0 +1,14 @@
+H:\SM\SM\SM.Web\SM.IBLL\bin\Debug\netcoreapp2.0\SM.IBLL.deps.json
+H:\SM\SM\SM.Web\SM.IBLL\bin\Debug\netcoreapp2.0\SM.IBLL.dll
+H:\SM\SM\SM.Web\SM.IBLL\bin\Debug\netcoreapp2.0\SM.IBLL.pdb
+H:\SM\SM\SM.Web\SM.IBLL\obj\Debug\netcoreapp2.0\SM.IBLL.csproj.CoreCompileInputs.cache
+H:\SM\SM\SM.Web\SM.IBLL\obj\Debug\netcoreapp2.0\SM.IBLL.AssemblyInfoInputs.cache
+H:\SM\SM\SM.Web\SM.IBLL\obj\Debug\netcoreapp2.0\SM.IBLL.AssemblyInfo.cs
+H:\SM\SM\SM.Web\SM.IBLL\obj\Debug\netcoreapp2.0\SM.IBLL.dll
+H:\SM\SM\SM.Web\SM.IBLL\obj\Debug\netcoreapp2.0\SM.IBLL.pdb
+H:\SM\SM\SM.Web\SM.IBLL\bin\Debug\netcoreapp2.0\SM.Common.dll
+H:\SM\SM\SM.Web\SM.IBLL\bin\Debug\netcoreapp2.0\SM.Model.dll
+H:\SM\SM\SM.Web\SM.IBLL\bin\Debug\netcoreapp2.0\SM.Model.pdb
+H:\SM\SM\SM.Web\SM.IBLL\bin\Debug\netcoreapp2.0\SM.Common.pdb
+H:\SM\SM\SM.Web\SM.IBLL\obj\Debug\netcoreapp2.0\SM.IBLL.csprojAssemblyReference.cache
+H:\SM\SM\SM.Web\SM.IBLL\obj\Debug\netcoreapp2.0\SM.IBLL.csproj.CopyComplete

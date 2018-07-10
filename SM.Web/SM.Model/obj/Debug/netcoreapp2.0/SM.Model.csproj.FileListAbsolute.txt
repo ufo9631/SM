@@ -1,0 +1,12 @@
+H:\SM\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.0\SM.Model.deps.json
+H:\SM\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.0\SM.Model.dll
+H:\SM\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.0\SM.Model.pdb
+H:\SM\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.0\SM.Model.csprojAssemblyReference.cache
+H:\SM\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.0\SM.Model.csproj.CoreCompileInputs.cache
+H:\SM\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.0\SM.Model.AssemblyInfoInputs.cache
+H:\SM\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.0\SM.Model.AssemblyInfo.cs
+H:\SM\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.0\SM.Model.dll
+H:\SM\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.0\SM.Model.pdb
+H:\SM\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.0\SM.Common.dll
+H:\SM\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.0\SM.Common.pdb
+H:\SM\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.0\SM.Model.csproj.CopyComplete

@@ -1,0 +1,16 @@
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.DAL.deps.json
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.DAL.dll
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.DAL.pdb
+H:\SM\SM\SM.Web\SM.DAL\obj\Debug\netcoreapp2.0\SM.DAL.csprojAssemblyReference.cache
+H:\SM\SM\SM.Web\SM.DAL\obj\Debug\netcoreapp2.0\SM.DAL.csproj.CoreCompileInputs.cache
+H:\SM\SM\SM.Web\SM.DAL\obj\Debug\netcoreapp2.0\SM.DAL.AssemblyInfoInputs.cache
+H:\SM\SM\SM.Web\SM.DAL\obj\Debug\netcoreapp2.0\SM.DAL.AssemblyInfo.cs
+H:\SM\SM\SM.Web\SM.DAL\obj\Debug\netcoreapp2.0\SM.DAL.dll
+H:\SM\SM\SM.Web\SM.DAL\obj\Debug\netcoreapp2.0\SM.DAL.pdb
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.Common.dll
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.IDAL.dll
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.Model.dll
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.IDAL.pdb
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.Model.pdb
+H:\SM\SM\SM.Web\SM.DAL\bin\Debug\netcoreapp2.0\SM.Common.pdb
+H:\SM\SM\SM.Web\SM.DAL\obj\Debug\netcoreapp2.0\SM.DAL.csproj.CopyComplete

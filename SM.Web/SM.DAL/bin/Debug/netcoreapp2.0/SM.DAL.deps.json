@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "SM.DAL/1.0.0": {
+        "dependencies": {
+          "SM.IDAL": "1.0.0",
+          "SM.Model": "1.0.0"
+        },
+        "runtime": {
+          "SM.DAL.dll": {}
+        }
+      },
+      "SM.Common/1.0.0": {
+        "runtime": {
+          "SM.Common.dll": {}
+        }
+      },
+      "SM.IDAL/1.0.0": {
+        "dependencies": {
+          "SM.Common": "1.0.0",
+          "SM.Model": "1.0.0"
+        },
+        "runtime": {
+          "SM.IDAL.dll": {}
+        }
+      },
+      "SM.Model/1.0.0": {
+        "dependencies": {
+          "SM.Common": "1.0.0"
+        },
+        "runtime": {
+          "SM.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SM.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SM.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SM.IDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SM.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
