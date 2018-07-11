@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SM.BLL\SM.BLL.csproj" />
+    <ProjectReference Include="..\SM.Common\SM.Common.csproj" />
+    <ProjectReference Include="..\SM.DAL\SM.DAL.csproj" />
+    <ProjectReference Include="..\SM.IBLL\SM.IBLL.csproj" />
+    <ProjectReference Include="..\SM.IDAL\SM.IDAL.csproj" />
+    <ProjectReference Include="..\SM.Model\SM.Model.csproj" />
+  </ItemGroup>
+
+</Project>
