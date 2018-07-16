@@ -1,0 +1,8 @@
+G:\SM\SM.Web\SM.Common\bin\Debug\netcoreapp2.1\SM.Common.deps.json
+G:\SM\SM.Web\SM.Common\bin\Debug\netcoreapp2.1\SM.Common.dll
+G:\SM\SM.Web\SM.Common\bin\Debug\netcoreapp2.1\SM.Common.pdb
+G:\SM\SM.Web\SM.Common\obj\Debug\netcoreapp2.1\SM.Common.csproj.CoreCompileInputs.cache
+G:\SM\SM.Web\SM.Common\obj\Debug\netcoreapp2.1\SM.Common.AssemblyInfoInputs.cache
+G:\SM\SM.Web\SM.Common\obj\Debug\netcoreapp2.1\SM.Common.AssemblyInfo.cs
+G:\SM\SM.Web\SM.Common\obj\Debug\netcoreapp2.1\SM.Common.dll
+G:\SM\SM.Web\SM.Common\obj\Debug\netcoreapp2.1\SM.Common.pdb

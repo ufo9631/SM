@@ -1,0 +1,12 @@
+G:\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.1\SM.Model.deps.json
+G:\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.1\SM.Model.dll
+G:\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.1\SM.Model.pdb
+G:\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.1\SM.Common.dll
+G:\SM\SM.Web\SM.Model\bin\Debug\netcoreapp2.1\SM.Common.pdb
+G:\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.1\SM.Model.csprojAssemblyReference.cache
+G:\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.1\SM.Model.csproj.CoreCompileInputs.cache
+G:\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.1\SM.Model.AssemblyInfoInputs.cache
+G:\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.1\SM.Model.AssemblyInfo.cs
+G:\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.1\SM.Model.csproj.CopyComplete
+G:\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.1\SM.Model.dll
+G:\SM\SM.Web\SM.Model\obj\Debug\netcoreapp2.1\SM.Model.pdb

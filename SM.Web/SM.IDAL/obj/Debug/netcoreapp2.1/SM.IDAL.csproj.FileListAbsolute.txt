@@ -1,0 +1,14 @@
+G:\SM\SM.Web\SM.IDAL\bin\Debug\netcoreapp2.1\SM.IDAL.deps.json
+G:\SM\SM.Web\SM.IDAL\bin\Debug\netcoreapp2.1\SM.IDAL.dll
+G:\SM\SM.Web\SM.IDAL\bin\Debug\netcoreapp2.1\SM.IDAL.pdb
+G:\SM\SM.Web\SM.IDAL\bin\Debug\netcoreapp2.1\SM.Common.dll
+G:\SM\SM.Web\SM.IDAL\bin\Debug\netcoreapp2.1\SM.Model.dll
+G:\SM\SM.Web\SM.IDAL\bin\Debug\netcoreapp2.1\SM.Common.pdb
+G:\SM\SM.Web\SM.IDAL\bin\Debug\netcoreapp2.1\SM.Model.pdb
+G:\SM\SM.Web\SM.IDAL\obj\Debug\netcoreapp2.1\SM.IDAL.csprojAssemblyReference.cache
+G:\SM\SM.Web\SM.IDAL\obj\Debug\netcoreapp2.1\SM.IDAL.csproj.CoreCompileInputs.cache
+G:\SM\SM.Web\SM.IDAL\obj\Debug\netcoreapp2.1\SM.IDAL.AssemblyInfoInputs.cache
+G:\SM\SM.Web\SM.IDAL\obj\Debug\netcoreapp2.1\SM.IDAL.AssemblyInfo.cs
+G:\SM\SM.Web\SM.IDAL\obj\Debug\netcoreapp2.1\SM.IDAL.csproj.CopyComplete
+G:\SM\SM.Web\SM.IDAL\obj\Debug\netcoreapp2.1\SM.IDAL.dll
+G:\SM\SM.Web\SM.IDAL\obj\Debug\netcoreapp2.1\SM.IDAL.pdb

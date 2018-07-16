@@ -6,8 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.4.0" />
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
@@ -18,6 +21,12 @@
     <ProjectReference Include="..\SM.IBLL\SM.IBLL.csproj" />
     <ProjectReference Include="..\SM.IDAL\SM.IDAL.csproj" />
     <ProjectReference Include="..\SM.Model\SM.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Config\Log4net.config">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

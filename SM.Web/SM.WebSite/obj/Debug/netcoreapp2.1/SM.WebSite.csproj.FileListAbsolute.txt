@@ -42,3 +42,4 @@ G:\SM\SM.Web\SM.WebSite\obj\Debug\netcoreapp2.1\SM.WebSite.Views.pdb
 G:\SM\SM.Web\SM.WebSite\obj\Debug\netcoreapp2.1\SM.WebSite.csproj.CopyComplete
 G:\SM\SM.Web\SM.WebSite\obj\Debug\netcoreapp2.1\SM.WebSite.dll
 G:\SM\SM.Web\SM.WebSite\obj\Debug\netcoreapp2.1\SM.WebSite.pdb
+G:\SM\SM.Web\SM.WebSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
