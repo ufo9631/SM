@@ -98,5 +98,9 @@ namespace SM.Model
         /// 村名称
         /// </summary>
         public string VillageName { get; set; }
+        /// <summary>
+        /// 头像url
+        /// </summary>
+        public string imageurl { get; set; }
     }
 }
