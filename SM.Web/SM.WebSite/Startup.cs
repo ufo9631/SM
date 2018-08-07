@@ -22,11 +22,12 @@ namespace SM.WebSite
 {
     public class Startup
     {
-       
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
 
+            string mysql = Configuration.GetConnectionString("MySqlConn");
             //为StartUp.cs添加属性
             //log4net
             // repository = LogManager.CreateRepository("NETCoreRepository");
@@ -35,6 +36,7 @@ namespace SM.WebSite
             LogUtils.Info("Info信息");
             LogUtils.Debug("Debug信息");
             LogUtils.Error("Error信息");
+
         }
 
         public IConfiguration Configuration { get; }
