@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SM.BLL
 {
-    class BaseBLL
+    public class BaseBLL
     {
     }
 }

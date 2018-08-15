@@ -26,20 +26,16 @@ namespace SM.WebSite
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-
+           
             string mysql = Configuration.GetConnectionString("MySqlConn");
             //为StartUp.cs添加属性
             //log4net
             // repository = LogManager.CreateRepository("NETCoreRepository");
             //指定配置文件
             //  XmlConfigurator.Configure(repository, new FileInfo("Config\\log4net.config"));
-            LogUtils.Info("Info信息");
-            LogUtils.Debug("Debug信息");
-            LogUtils.Error("Error信息");
-
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration Configuration { get; set; }
 
         public static IContainer AutofacContainer;
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -53,6 +49,11 @@ namespace SM.WebSite
             });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            var configBuilder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
+            Configuration = configBuilder.Build();
+            services.AddSingleton<IConfiguration>(Configuration);//配置IConfiguration的依赖
+
             ContainerBuilder builder = new ContainerBuilder();
             builder.Populate(services);//将services中的服务填充到Autofac中
             builder.RegisterModule<DependencyModule>();//新模块组件注册

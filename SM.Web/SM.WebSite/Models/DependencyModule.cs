@@ -8,12 +8,16 @@ using System.Threading.Tasks;
 using Autofac.Extras.DynamicProxy;
 namespace SM.WebSite.Models
 {
-    public class DependencyModule :Autofac.Module
+    public class DependencyModule : Autofac.Module
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterAssemblyTypes(System.Reflection.Assembly.GetExecutingAssembly()).Where(t => t.Name.EndsWith("BLL")).AsImplementedInterfaces().InstancePerLifetimeScope().EnableInterfaceInterceptors().InterceptedBy(typeof(AopInterceptor)); 
-            builder.RegisterAssemblyTypes(System.Reflection.Assembly.GetExecutingAssembly()).Where(t => t.Name.EndsWith("DAL")).AsImplementedInterfaces().InstancePerLifetimeScope().EnableInterfaceInterceptors().InterceptedBy(typeof(AopInterceptor));
+            ;
+            var databll = Assembly.Load("SM.BLL");//.Where(t => t.Name.EndsWith("BLL.dll")
+            var datadal = Assembly.Load("SM.DAL");
+            builder.Register(c => new AopInterceptor()); //要先注入aop后面才能够使用
+            builder.RegisterAssemblyTypes(databll).AsImplementedInterfaces().InstancePerLifetimeScope().EnableInterfaceInterceptors().InterceptedBy(typeof(AopInterceptor));
+            builder.RegisterAssemblyTypes(datadal).AsImplementedInterfaces().InstancePerLifetimeScope().EnableInterfaceInterceptors().InterceptedBy(typeof(AopInterceptor));
             //注册所有"MyApp.Repository"程序集中的类
             //builder.RegisterAssemblyTypes(GetAssembly("MyApp.Repository")).AsImplementedInterfaces();
             //  base.Load(builder);

@@ -4,7 +4,8 @@ using System.Text;
 
 namespace SM.IBLL
 {
-    interface IBaseBLL
+    public interface IBaseBLL<TEntity>
     {
+        int Insert(TEntity entity);
     }
 }

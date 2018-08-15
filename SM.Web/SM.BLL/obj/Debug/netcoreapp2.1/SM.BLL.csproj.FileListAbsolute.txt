@@ -18,3 +18,5 @@ G:\SM\SM.Web\SM.BLL\obj\Debug\netcoreapp2.1\SM.BLL.AssemblyInfo.cs
 G:\SM\SM.Web\SM.BLL\obj\Debug\netcoreapp2.1\SM.BLL.csproj.CopyComplete
 G:\SM\SM.Web\SM.BLL\obj\Debug\netcoreapp2.1\SM.BLL.dll
 G:\SM\SM.Web\SM.BLL\obj\Debug\netcoreapp2.1\SM.BLL.pdb
+G:\SM\SM.Web\SM.BLL\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\SM\SM.Web\SM.BLL\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
