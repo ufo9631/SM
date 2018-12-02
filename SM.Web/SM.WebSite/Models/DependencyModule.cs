@@ -15,7 +15,7 @@ namespace SM.WebSite.Models
             ;
             var databll = Assembly.Load("SM.BLL");//.Where(t => t.Name.EndsWith("BLL.dll")
             var datadal = Assembly.Load("SM.DAL");
-            builder.Register(c => new AopInterceptor()); //要先注入aop后面才能够使用
+            builder.Register(c => new AopInterceptor()); 
             builder.RegisterAssemblyTypes(databll).AsImplementedInterfaces().InstancePerLifetimeScope().EnableInterfaceInterceptors().InterceptedBy(typeof(AopInterceptor));
             builder.RegisterAssemblyTypes(datadal).AsImplementedInterfaces().InstancePerLifetimeScope().EnableInterfaceInterceptors().InterceptedBy(typeof(AopInterceptor));
             //注册所有"MyApp.Repository"程序集中的类

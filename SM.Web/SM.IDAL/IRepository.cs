@@ -1,30 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace SM.IDAL
 {
     public interface IRepository<TEntity>
     {
-        #region 属性
-        IQueryable<TEntity> Entities { get; }
-        #endregion
-
+      
         #region 公共方法
-        int Insert(TEntity entity);
+        bool Insert(TEntity entity);
 
-        int Insert(IEnumerable<TEntity> entities);
+        bool Insert(IEnumerable<TEntity> entities);
 
-        int Delete(object id);
+        bool Delete(object id);
 
-        int Delete(TEntity entity);
+        bool Delete(TEntity entity);
 
-        int Delete(IEnumerable<TEntity> entities);
-
-        int Update(TEntity entity);
+        bool Update(TEntity entity);
 
         TEntity GetByKey(object key);
+        /// <summary>
+        /// 查询所有
+        /// </summary>
+        /// <returns></returns>
+        IList<TEntity> GetAllList();
+        IList<TEntity> GetList(Expression<Func<TEntity, bool>> lambWhere);
+        IList<TEntity> GetList(Expression<Func<TEntity, bool>> lambWhere, int pageIndex, int pageSize, out int pageCount);
+
         #endregion
     }
 }

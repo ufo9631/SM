@@ -26,13 +26,6 @@ namespace SM.WebSite
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-           
-            string mysql = Configuration.GetConnectionString("MySqlConn");
-            //为StartUp.cs添加属性
-            //log4net
-            // repository = LogManager.CreateRepository("NETCoreRepository");
-            //指定配置文件
-            //  XmlConfigurator.Configure(repository, new FileInfo("Config\\log4net.config"));
         }
 
         public IConfiguration Configuration { get; set; }

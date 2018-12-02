@@ -1,18 +1,25 @@
 ﻿using Microsoft.Extensions.Configuration;
 using SM.IBLL;
+using SM.IDAL;
 using SM.Model;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace SM.BLL
 {
-    public class UserBLL : BaseBLL, IUserBLL
+    public class UserBLL : BaseBLL<T_User>, IUserBLL
     {
-      
-        public int Insert(T_User entity)
+        public IUserDAL UserDAL { get; set; }
+        public UserBLL(IUserDAL _UserDAL)
         {
-            throw new NotImplementedException();
+            UserDAL = _UserDAL;
+            Initialize();
+        }
+        public override void Initialize()
+        {
+            DalInstance = UserDAL;
         }
     }
 }

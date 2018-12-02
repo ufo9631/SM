@@ -101,6 +101,6 @@ namespace SM.Model
         /// <summary>
         /// 头像url
         /// </summary>
-        public string imageurl { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

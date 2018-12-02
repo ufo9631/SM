@@ -5,11 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="1.50.5" />
     <PackageReference Include="MySql.Data" Version="8.0.12" />
+    <PackageReference Include="sqlSugarCore" Version="4.6.4.9" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SM.Common\SM.Common.csproj" />
     <ProjectReference Include="..\SM.IDAL\SM.IDAL.csproj" />
     <ProjectReference Include="..\SM.Model\SM.Model.csproj" />
   </ItemGroup>
